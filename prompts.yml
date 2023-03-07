@@ -5,5 +5,5 @@ user: |-
   <|start|>
   {raw_request}
   <|end|>
-  
-  First, determine what the user is requesting and decide if it is valid. Ater analysing the request, respond to the user by writing a valid raw http response that includes the most appropriate http status code, any necessary headers, and a valid response object. The response MUST be surrounded by <|start|> and <|end|> tags.
+
+  First, describe what the user is requesting and decide if it is a valid request. After analyzing the request, respond to the user by writing a valid raw http response that includes the most appropriate http status code, any necessary headers, and a valid response object in the requested format. The response MUST be surrounded by <|start|> and <|end|> tags and should not be abbreviated.
